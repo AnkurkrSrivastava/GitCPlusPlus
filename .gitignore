@@ -1,0 +1,16 @@
+# Ignore Windows executables
+*.exe
+
+# Ignore object files
+*.o
+
+# Ignore build folders
+/build/
+/bin/
+/debug/
+/release/
+
+# Ignore backup or temporary files
+*~
+*.log
+*.tmp
