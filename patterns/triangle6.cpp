@@ -8,9 +8,9 @@ int main(){
     {
         for (int j = i+1; j >0; j--)
         {
-            cout << m << " ";   
+            cout << m << " ";
+            m += 1;   
         }
-        m+=1;
         cout << endl; // Move to the next line after finishing a row
         
     }
