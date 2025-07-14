@@ -11,7 +11,7 @@ vector<int> ExceptProduct(vector<int> nums){
         int product = 1;
         for (int j = 0; j < nums.size(); j++)
         {
-            if (nums[i] != nums[j])
+            if (i != j) // nums[i] != nums[j] checks number in array if same no. exist at another index it'll skip that too. 
             {
                 product *= nums[j];
             }
@@ -22,7 +22,7 @@ vector<int> ExceptProduct(vector<int> nums){
 }
 
 int main(){
-    vector<int> vec = {1,2,3,4};
+    vector<int> vec = {0,0};
     vector<int> result = ExceptProduct(vec); 
     for (int val : result)
     {
