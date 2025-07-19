@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int BinaryExpo(double x , int n){
+double BinaryExpo(double x , int n){
     long long power = n;
     if (n<0)
     {
