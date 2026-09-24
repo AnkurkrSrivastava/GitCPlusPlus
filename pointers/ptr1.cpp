@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int largest = 0;
+    int largest = INT16_MIN;
     int smallest = INT16_MAX;
     int arr[5];
     cout << "Enter 5 numbers: ";
